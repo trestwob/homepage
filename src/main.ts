@@ -10,7 +10,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         
         <div id="todo" class="row-span-6 col-span-4 float-end text-4xl font-bold p-10"></div>
         <div class="row-span-6 col-span-8 place-items-center">
-            <h1 class="text-4xl italic font-bold py-10 text-sky-500 text-left">Ny Search</h1>
+            <h1 class="text-7xl py-5 text-rose-600 text-left font-WindSong">Ny Search</h1>
             <form action="https://www.google.com/search" method="get" class="font-bold text-5xl">
                 
                 <input type="text" name="q" placeholder="Search cat video" class="border-4 rounded-lg border-cyan-950 hover:border-cyan-400 bg-cyan-800 
@@ -21,7 +21,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </form>
         </div>
 
-        <div id="quotes" class="row-span-2 col-span-12 text-4xl font-bold p-5 bg-cyan-800/95 text-orange-300 border-4 border-orange-300 rounded-lg"></div>
+        <div id="quotes" class="row-span-2 col-span-12 text-2xl font-bold p-5 bg-cyan-800/95 text-orange-300 border-4 border-orange-300 rounded-lg overflow-scroll"></div>
     </div>
 `
 quotes(document.querySelector<HTMLBodyElement>('#quotes')!);
