@@ -21,7 +21,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </form>
         </div>
 
-        <div id="quotes" class="row-span-2 col-span-12 text-2xl font-bold p-5 bg-cyan-800/95 text-orange-300 border-4 border-orange-300 rounded-lg overflow-scroll"></div>
+        <div id="quotes" class="row-span-2 col-span-12 text-2xl font-bold p-5 bg-cyan-800/95 text-orange-300 border-4 border-orange-300 rounded-lg 
+        overflow-scroll h-fit"></div>
     </div>
 `
 quotes(document.querySelector<HTMLBodyElement>('#quotes')!);
